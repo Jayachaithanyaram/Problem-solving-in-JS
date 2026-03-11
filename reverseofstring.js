@@ -21,7 +21,7 @@ function revstr(a) {
 revstr(12345);
 revstr("ramudu")
 
-//method 3
+//method 3k
 function king(a) {
     return a.split("").reverse().join("");
 }

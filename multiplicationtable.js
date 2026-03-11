@@ -1,9 +1,9 @@
-const { stdin } = require('process');
-const readline = require('readline');
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-})
+    const { stdin } = require('process');
+    const readline = require('readline');
+    const rl = readline.createInterface({
+        input: process.stdin,
+        output: process.stdout
+    })
 
 function multable(a, b) {
     for (let i = 1; i <= b; i++) {
